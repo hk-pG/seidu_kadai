@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL082
+D Dual operational amplifier
+K dual opamp
+F ~
+$ENDCMP
+#
+#End Doc Library
