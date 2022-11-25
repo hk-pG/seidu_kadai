@@ -1,0 +1,281 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_DIP_x08 SW2
+U 1 1 61C39DFC
+P 3300 3200
+F 0 "SW2" V 3254 3730 50  0000 L CNN
+F 1 "SW_DIP_x08" V 3345 3730 50  0000 L CNN
+F 2 "My_Footprint:SW_DIP_x8_W7.62mm_Slide" H 3300 3200 50  0001 C CNN
+F 3 "~" H 3300 3200 50  0001 C CNN
+	1    3300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 61C39E02
+P 4150 4450
+F 0 "#PWR012" H 4150 4200 50  0001 C CNN
+F 1 "GND" H 4155 4277 50  0000 C CNN
+F 2 "" H 4150 4450 50  0001 C CNN
+F 3 "" H 4150 4450 50  0001 C CNN
+	1    4150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 61C39E08
+P 4000 1850
+F 0 "#PWR010" H 4000 1600 50  0001 C CNN
+F 1 "GND" H 4005 1677 50  0000 C CNN
+F 2 "" H 4000 1850 50  0001 C CNN
+F 3 "" H 4000 1850 50  0001 C CNN
+	1    4000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1700 3700 2900
+Wire Wire Line
+	3600 1700 3600 2900
+Wire Wire Line
+	3500 1700 3500 2900
+Wire Wire Line
+	3400 1700 3400 2900
+Wire Wire Line
+	3300 1700 3300 2900
+Wire Wire Line
+	3200 2900 3200 1700
+Wire Wire Line
+	3100 1700 3100 2900
+Wire Wire Line
+	3000 2900 3000 1700
+Wire Wire Line
+	3800 1700 3800 1850
+Wire Wire Line
+	3800 1850 3900 1850
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 61C39E18
+P 4000 1700
+F 0 "#FLG02" H 4000 1775 50  0001 C CNN
+F 1 "PWR_FLAG" V 4000 1828 50  0000 L CNN
+F 2 "" H 4000 1700 50  0001 C CNN
+F 3 "~" H 4000 1700 50  0001 C CNN
+	1    4000 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 61C39E1E
+P 2550 1900
+F 0 "#FLG01" H 2550 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 2550 2073 50  0000 C CNN
+F 2 "" H 2550 1900 50  0001 C CNN
+F 3 "~" H 2550 1900 50  0001 C CNN
+	1    2550 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 1700 3900 1700
+Wire Wire Line
+	3900 1700 3900 1850
+Connection ~ 3900 1850
+Wire Wire Line
+	3900 1850 4000 1850
+$Comp
+L power:+5V #PWR08
+U 1 1 61C39E28
+P 3900 5350
+F 0 "#PWR08" H 3900 5200 50  0001 C CNN
+F 1 "+5V" H 3915 5523 50  0000 C CNN
+F 2 "" H 3900 5350 50  0001 C CNN
+F 3 "" H 3900 5350 50  0001 C CNN
+	1    3900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 61C39E2E
+P 2550 1600
+F 0 "#PWR07" H 2550 1450 50  0001 C CNN
+F 1 "+5V" H 2565 1773 50  0000 C CNN
+F 2 "" H 2550 1600 50  0001 C CNN
+F 3 "" H 2550 1600 50  0001 C CNN
+	1    2550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1600 2550 1800
+Wire Wire Line
+	2900 1700 2900 1800
+Wire Wire Line
+	2900 1800 2550 1800
+Connection ~ 2550 1800
+Wire Wire Line
+	2550 1800 2550 1900
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 61C39E39
+P 4150 3900
+F 0 "RV1" H 4080 3946 50  0000 R CNN
+F 1 "R_POT_TRIM" H 4080 3855 50  0000 R CNN
+F 2 "My_Footprint:Potentiometer_VishaySpectrol_148_149_Single_Horizontal" H 4150 3900 50  0001 C CNN
+F 3 "~" H 4150 3900 50  0001 C CNN
+	1    4150 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 61C39E3F
+P 4150 3600
+F 0 "#PWR011" H 4150 3450 50  0001 C CNN
+F 1 "+5V" H 4165 3773 50  0000 C CNN
+F 2 "" H 4150 3600 50  0001 C CNN
+F 3 "" H 4150 3600 50  0001 C CNN
+	1    4150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 61C39E45
+P 3700 4150
+F 0 "C2" H 3815 4196 50  0000 L CNN
+F 1 "C" H 3815 4105 50  0000 L CNN
+F 2 "My_Footprint:C_Disc_W2.5mm_P2-5mm" H 3738 4000 50  0001 C CNN
+F 3 "~" H 3700 4150 50  0001 C CNN
+	1    3700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 61C39E4B
+P 3900 5750
+F 0 "C3" H 4015 5796 50  0000 L CNN
+F 1 "C" H 4015 5705 50  0000 L CNN
+F 2 "My_Footprint:C_Disc_W2.5mm_P2-5mm" H 3938 5600 50  0001 C CNN
+F 3 "~" H 3900 5750 50  0001 C CNN
+	1    3900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 61C39E51
+P 3550 5750
+F 0 "C1" H 3668 5796 50  0000 L CNN
+F 1 "CP" H 3668 5705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3588 5600 50  0001 C CNN
+F 3 "~" H 3550 5750 50  0001 C CNN
+	1    3550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61C39E57
+P 3900 6050
+F 0 "#PWR09" H 3900 5800 50  0001 C CNN
+F 1 "GND" H 3905 5877 50  0000 C CNN
+F 2 "" H 3900 6050 50  0001 C CNN
+F 3 "" H 3900 6050 50  0001 C CNN
+	1    3900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5600 3900 5450
+Wire Wire Line
+	3900 6050 3900 6000
+Wire Wire Line
+	3550 5900 3550 6000
+Wire Wire Line
+	3550 6000 3900 6000
+Connection ~ 3900 6000
+Wire Wire Line
+	3900 6000 3900 5900
+Wire Wire Line
+	3550 5600 3550 5450
+Wire Wire Line
+	3550 5450 3900 5450
+Connection ~ 3900 5450
+Wire Wire Line
+	3900 5450 3900 5350
+Wire Wire Line
+	4150 4050 4150 4400
+Wire Wire Line
+	4150 3750 4150 3600
+Wire Wire Line
+	3700 4000 3700 3900
+Wire Wire Line
+	3700 4300 3700 4400
+Wire Wire Line
+	3700 4400 4150 4400
+Connection ~ 4150 4400
+Wire Wire Line
+	4150 4400 4150 4450
+Wire Wire Line
+	3700 3900 4000 3900
+Connection ~ 3700 3900
+Wire Wire Line
+	3700 3900 3700 3700
+Wire Wire Line
+	3000 3500 3000 3700
+Wire Wire Line
+	3000 3700 3100 3700
+Connection ~ 3700 3700
+Wire Wire Line
+	3700 3700 3700 3500
+Wire Wire Line
+	3100 3500 3100 3700
+Connection ~ 3100 3700
+Wire Wire Line
+	3100 3700 3200 3700
+Wire Wire Line
+	3200 3500 3200 3700
+Connection ~ 3200 3700
+Wire Wire Line
+	3200 3700 3300 3700
+Wire Wire Line
+	3300 3500 3300 3700
+Connection ~ 3300 3700
+Wire Wire Line
+	3300 3700 3400 3700
+Wire Wire Line
+	3400 3500 3400 3700
+Connection ~ 3400 3700
+Wire Wire Line
+	3400 3700 3500 3700
+Wire Wire Line
+	3500 3500 3500 3700
+Connection ~ 3500 3700
+Wire Wire Line
+	3500 3700 3600 3700
+Wire Wire Line
+	3600 3500 3600 3700
+Connection ~ 3600 3700
+Wire Wire Line
+	3600 3700 3700 3700
+$Comp
+L LEDbord-rescue:conn_02x5-My_Device CN3
+U 1 1 61C39E87
+P 3500 1500
+AR Path="/61C39E87" Ref="CN3"  Part="1" 
+AR Path="/61BDFC72/61C39E87" Ref="CN3"  Part="1" 
+F 0 "CN3" H 3888 1557 50  0000 L CNN
+F 1 "conn_02x5" H 3888 1466 50  0000 L CNN
+F 2 "My_Footprint:BH-10SG" V 3300 1500 50  0001 C CNN
+F 3 "~" V 3300 1500 50  0001 C CNN
+	1    3500 1500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

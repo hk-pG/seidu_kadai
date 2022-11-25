@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BS108
+D 0.25A Id, 200V Vds, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.redrok.com/MOSFET_BS108_200V_250mA_8O_Vth1.5_TO-92.PDF
+$ENDCMP
+#
+$CMP BS170
+D 0.5A Id, 60V Vds, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/BS/BS170.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Conn_02x5
+D Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Network08
+D 8 resistor network, star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_POT_TRIM
+D Trim-potentiometer
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
+$CMP SW_DIP_x08
+D 8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+F ~
+$ENDCMP
+#
+#End Doc Library
