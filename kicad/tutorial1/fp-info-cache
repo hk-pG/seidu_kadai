@@ -1,4 +1,4 @@
-15952170291396325
+15955508970954055
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49902,6 +49902,20 @@ Potentiometer horizontal Vishay 148-149 Single
 0
 3
 3
+My_Device
+R100m
+
+
+0
+0
+0
+My_Device
+R_250mWmono-STD
+
+
+0
+2
+2
 My_Device
 R_Array_SIP9
 9-pin Resistor SIP pack

@@ -906,10 +906,4 @@ Wire Wire Line
 Connection ~ 3550 4250
 Wire Wire Line
 	3550 4250 3550 4450
-$Sheet
-S 2700 5800 500  150 
-U 63AEAC57
-F0 "Sheet63AEAC56" 50
-F1 "file63AEAC56.sch" 50
-$EndSheet
 $EndSCHEMATC
