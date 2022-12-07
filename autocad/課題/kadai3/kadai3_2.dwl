@@ -1,0 +1,3 @@
+hukad
+DESKTOP-NBN8UAR 
+2022”N12ŒŽ7“ú  23:16:56
