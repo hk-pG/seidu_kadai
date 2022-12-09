@@ -906,4 +906,18 @@ Wire Wire Line
 Connection ~ 3550 4250
 Wire Wire Line
 	3550 4250 3550 4450
+$Comp
+L power:+5V #PWR?
+U 1 1 6394A1B9
+P 8300 4150
+F 0 "#PWR?" H 8300 4000 50  0001 C CNN
+F 1 "+5V" H 8315 4323 50  0000 C CNN
+F 2 "" H 8300 4150 50  0001 C CNN
+F 3 "" H 8300 4150 50  0001 C CNN
+	1    8300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4150 8300 4350
+Connection ~ 8300 4350
 $EndSCHEMATC
