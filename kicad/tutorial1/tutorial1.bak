@@ -906,4 +906,29 @@ Wire Wire Line
 Connection ~ 3550 4250
 Wire Wire Line
 	3550 4250 3550 4450
+$Comp
+L power:+5V #PWR0101
+U 1 1 6394A1B9
+P 8300 4150
+F 0 "#PWR0101" H 8300 4000 50  0001 C CNN
+F 1 "+5V" H 8315 4323 50  0000 C CNN
+F 2 "" H 8300 4150 50  0001 C CNN
+F 3 "" H 8300 4150 50  0001 C CNN
+	1    8300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4150 8300 4350
+Connection ~ 8300 4350
+$Comp
+L My_device:bord U1
+U 1 1 6398D3A2
+P 10400 5850
+F 0 "U1" H 10650 5938 50  0000 L CNN
+F 1 "bord" H 10650 5847 50  0000 L CNN
+F 2 "My_Device:bord1" H 10400 5850 50  0001 C CNN
+F 3 "" H 10400 5850 50  0001 C CNN
+	1    10400 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

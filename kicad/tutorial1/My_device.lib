@@ -51,4 +51,17 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
+# bord
+#
+DEF bord U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "bord" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 100 50 0 0 0 pcb_100x75 Normal 0 C C
+S -100 50 100 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library

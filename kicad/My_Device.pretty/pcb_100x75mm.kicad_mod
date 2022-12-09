@@ -1,8 +1,8 @@
-(module MY_LIB:100x75mm (layer F.Cu) (tedit 5FB723A9)
-  (fp_text reference REF** (at -8 -38.5 180) (layer F.SilkS)
+(module pcb_100x75mm (layer F.Cu) (tedit 5E9EF2D4)
+  (fp_text reference Bord1 (at -0.3691 -35.9792 180) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value 100x75mm (at 6 -38.5 180) (layer F.Fab)
+  (fp_text value 100x75mmbord (at -0.2591 -35.0492 180) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 50 37.5) (end -50 37.5) (layer F.CrtYd) (width 0.05))

@@ -1,4 +1,4 @@
-15961880391834055
+15963529992334794
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49916,6 +49916,13 @@ LED diameter 3.0mm 2 pins
 0
 2
 2
+My_Device
+pcb_100x75mm
+
+
+0
+0
+0
 My_Device
 Potentiometer_Vishay_148-149_Single_Horizontal
 Potentiometer, horizontal, Vishay 148-149 Single, http://www.vishay.com/docs/57040/148149.pdf
